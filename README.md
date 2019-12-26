@@ -1,6 +1,6 @@
 # ConvertVideos2Images
 CV2I (Convert Videos to Images) is command line tool that you can easily convert your videos in one directory to multiple images
-it used for creating dataset and training them and making model in CNN
+it used for creating dataset and training model in CNN
 
 simple definition: CV2I is dataset creator with videos
 
@@ -12,15 +12,17 @@ set quality of the images
 <h2>Requirements</h2>
 
 
-install Anaconda distribution Python 3.7 version from here
+install Anaconda distribution Python 3.7 version from <a href="https://www.anaconda.com/distribution">here</a> 
 
 install libs with using the command below in Anaconda prompt
 
 
     pip install numpy matplotlib opencv-contrib-python PIL
     
-    
-<p>Usage 1- download tool with using the command below</p>
+<h2>Usage</h2>
+
+
+<p>1- download tool with using the command below</p>
     
 
     git clone https://github.com/hamedpa/ConvertVideos2Images
@@ -30,7 +32,7 @@ install libs with using the command below in Anaconda prompt
     python cv2iDatasets.py 
 
 
-<p>4- Enter inputs with using the command below</p>
+<p>3- Enter inputs with using the command below</p>
 
 SAMPLE OF INPUTS
 
@@ -42,6 +44,6 @@ SAMPLE OF INPUTS
     do you need to resize images (n/y) : n
 
 
-<p>5- All images will save in images directory</p>
+<p>4- All images will save in images directory</p>
 
 you can use this data in deep learning
